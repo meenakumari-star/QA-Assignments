@@ -1,9 +1,0 @@
-node_modules/
-dist/
-playwright-report/
-test-results/
-allure-results/
-allure-report/
-.env
-.env.local
-*.log
