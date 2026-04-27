@@ -1,0 +1,38 @@
+{
+  "name": "swaglabs-ui-automation",
+  "version": "1.0.0",
+  "description": "UI automation framework for SauceDemo (Swag Labs) using Playwright + TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:debug": "PWDEBUG=1 playwright test",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://www.saucedemo.com/",
+    "lint": "tsc --noEmit",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "ui-automation",
+    "saucedemo",
+    "swaglabs"
+  ],
+  "author": "QA Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.7.1",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  }
+}
