@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Sweet Shop" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Sweets" [ref=e8] [cursor=pointer]:
+            - /url: /sweets
+          - generic [ref=e9]: (current)
+        - listitem [ref=e10]:
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e12]:
+          - link "Login" [ref=e13] [cursor=pointer]:
+            - /url: /login
+        - listitem [ref=e14]:
+          - link "0 Basket" [ref=e15] [cursor=pointer]:
+            - /url: /basket
+            - generic [ref=e16]: "0"
+            - text: Basket
+  - generic [ref=e17]:
+    - banner [ref=e18]:
+      - heading "Browse sweets" [level=1] [ref=e19]
+      - paragraph [ref=e20]: Browse our delicious choice of retro sweets.
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - img [ref=e24]
+        - generic [ref=e25]:
+          - heading "Chocolate Cups" [level=4] [ref=e26]
+          - paragraph [ref=e27]: Candy Chocolate Cups.
+          - paragraph [ref=e28]: £1.00
+        - generic [ref=e30] [cursor=pointer]: Add to Basket
+      - generic [ref=e32]:
+        - img "sherbert straws" [ref=e33]
+        - generic [ref=e34]:
+          - heading "Sherbert Straws" [level=4] [ref=e35]
+          - paragraph [ref=e36]: Rainbow Dust Straws - Choose your colour.
+          - paragraph [ref=e37]: £0.75
+        - generic [ref=e39] [cursor=pointer]: Add to Basket
+      - generic [ref=e41]:
+        - img "sherbert discs" [ref=e42]
+        - generic [ref=e43]:
+          - heading "Sherbert Discs" [level=4] [ref=e44]
+          - paragraph [ref=e45]: UFO's Sherbert Filled Flying Saucers.
+          - paragraph [ref=e46]: £0.95
+        - generic [ref=e48] [cursor=pointer]: Add to Basket
+      - generic [ref=e50]:
+        - img "bonbon" [ref=e51]
+        - generic [ref=e52]:
+          - heading "Bon Bons" [level=4] [ref=e53]
+          - paragraph [ref=e54]: Pink Strawberry Bonbons - sugar dusted, strawberry flavoured chewy sweets.
+          - paragraph [ref=e55]: £1.00
+        - generic [ref=e57] [cursor=pointer]: Add to Basket
+    - generic [ref=e58]:
+      - generic [ref=e60]:
+        - img "jellies" [ref=e61]
+        - generic [ref=e62]:
+          - heading "Jellies" [level=4] [ref=e63]
+          - paragraph [ref=e64]: Fruit flavoured chewy sea monster jellies.
+          - paragraph [ref=e65]: £0.75
+        - generic [ref=e67] [cursor=pointer]: Add to Basket
+      - generic [ref=e69]:
+        - img "fruit salads" [ref=e70]
+        - generic [ref=e71]:
+          - heading "Fruit Salads" [level=4] [ref=e72]
+          - paragraph [ref=e73]: Fruit salad chews.
+          - paragraph [ref=e74]: £0.50
+        - generic [ref=e76] [cursor=pointer]: Add to Basket
+      - generic [ref=e78]:
+        - img [ref=e79]
+        - generic [ref=e80]:
+          - heading "Bubble Gums" [level=4] [ref=e81]
+          - paragraph [ref=e82]: Fruit flavoured bubble gums and tattoo.
+          - paragraph [ref=e83]: £0.25
+        - generic [ref=e85] [cursor=pointer]: Add to Basket
+      - generic [ref=e87]:
+        - img "wham bar" [ref=e88]
+        - generic [ref=e89]:
+          - heading "Wham Bars" [level=4] [ref=e90]
+          - paragraph [ref=e91]: Wham original raspberry chew bar.
+          - paragraph [ref=e92]: £0.15
+        - generic [ref=e94] [cursor=pointer]: Add to Basket
+    - generic [ref=e95]:
+      - generic [ref=e97]:
+        - img "sweet whistle" [ref=e98]
+        - generic [ref=e99]:
+          - heading "Whistles" [level=4] [ref=e100]
+          - paragraph [ref=e101]: Candy whistles.
+          - paragraph [ref=e102]: £0.25
+        - generic [ref=e104] [cursor=pointer]: Add to Basket
+      - generic [ref=e106]:
+        - img "sherbert" [ref=e107]
+        - generic [ref=e108]:
+          - heading "Sherbert Fountains" [level=4] [ref=e109]
+          - paragraph [ref=e110]: Sherbert fountain with a liquorice stick for dipping.
+          - paragraph [ref=e111]: £0.35
+        - generic [ref=e113] [cursor=pointer]: Add to Basket
+      - generic [ref=e115]:
+        - img "swansea mixture" [ref=e116]
+        - generic [ref=e117]:
+          - heading "Swansea Mixture" [level=4] [ref=e118]
+          - paragraph [ref=e119]: Originally made in Swansea this classic mix is popular across South Wales.
+          - paragraph [ref=e120]: £1.50
+        - generic [ref=e122] [cursor=pointer]: Add to Basket
+      - generic [ref=e124]:
+        - img "beans" [ref=e125]
+        - generic [ref=e126]:
+          - heading "Chocolate Beans" [level=4] [ref=e127]
+          - paragraph [ref=e128]: Chocolate beans.
+          - paragraph [ref=e129]: £0.80
+        - generic [ref=e131] [cursor=pointer]: Add to Basket
+    - generic [ref=e132]:
+      - generic [ref=e134]:
+        - img "nerds" [ref=e135]
+        - generic [ref=e136]:
+          - heading "Nerds" [level=4] [ref=e137]
+          - paragraph [ref=e138]: American candy sweets.
+          - paragraph [ref=e139]: £0.60
+        - generic [ref=e141] [cursor=pointer]: Add to Basket
+      - generic [ref=e143]:
+        - img "drumstick" [ref=e144]
+        - generic [ref=e145]:
+          - heading "Drumsticks" [level=4] [ref=e146]
+          - paragraph [ref=e147]: Raspberry and milk flavour chews.
+          - paragraph [ref=e148]: £0.20
+        - generic [ref=e150] [cursor=pointer]: Add to Basket
+      - generic [ref=e152]:
+        - img "bubbly" [ref=e153]
+        - generic [ref=e154]:
+          - heading "Bubbly" [level=4] [ref=e155]
+          - paragraph [ref=e156]: Fruit flavoured bubble gum.
+          - paragraph [ref=e157]: £0.10
+        - generic [ref=e159] [cursor=pointer]: Add to Basket
+      - generic [ref=e161]:
+        - img "dolly mixtures" [ref=e162]
+        - generic [ref=e163]:
+          - heading "Dolly Mixture" [level=4] [ref=e164]
+          - paragraph [ref=e165]: Dolly mixture.
+          - paragraph [ref=e166]: £0.90
+        - generic [ref=e168] [cursor=pointer]: Add to Basket
+  - contentinfo [ref=e169]:
+    - paragraph [ref=e171]: Sweet Shop Project 2018
